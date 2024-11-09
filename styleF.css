@@ -1,0 +1,135 @@
+h1 {
+    position: relative;
+    top: 20px;
+    left: 150px;
+    font-family: "Lumanosimo", sans-serif; 
+    color: #CB997E !important;
+}
+.navbar a:hover {
+    color: #CB997E; 
+    background-color: #EEDCD2; 
+    border-radius: 5px; 
+}
+.ligne{
+    width: 10px;
+    height: 400px;
+    background-color: #CB997E;
+    position: relative;
+    top: 20px;
+    left: 160px;
+}
+.ligne1{
+    width: 10px;
+    height: 300px;
+    background-color: #CB997E;
+    position: absolute;
+    top: 150px;
+    left: 600px;
+    
+}
+.cercle{
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50px;
+    top: 110px;
+    position: relative;
+
+}
+p{
+    position: relative;
+    top: 80px;
+    left: 20px;
+    width: 400px;
+    font-weight: bold;
+}
+.cercle1{
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50px;
+    top: 250px;
+    position: relative;
+
+}
+.p{
+    position: relative;
+    top: 100px;
+    left: 20px;
+    width: 400px;
+    font-weight: bold;
+}
+.p1{
+    position: relative;
+    top: 80px;
+    left: 20px;
+    width: 400px;
+    font-weight: bold;
+}
+.cercle2{
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50px;
+    top: 100px;
+    position: relative;
+
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        left: 150px;
+        font-size: 2.5rem;
+    }
+    .ligne {
+        left: 160px;
+    }
+    .ligne1 {
+        left: 600px;
+    }
+   
+}
+
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    h1 {
+        left: 50px;
+        font-size: 2rem;
+    }
+    .ligne {
+        left: 80px;
+        height: 300px; 
+    }
+    .ligne1 {
+        left: 400px;
+        height: 200px;
+    }
+    p, .p, .p1, .p2, .p3, .p4 {
+        width: 300px;
+        font-size: 0.9rem;
+    }
+    
+}
+
+
+@media (max-width: 767px) {
+    h1 {
+        left: 20px;
+        font-size: 1.5rem;
+        text-align: center; 
+    }
+    .ligne {
+        left: 40px;
+        height: 200px;
+    }
+    .ligne1 {
+        left: 200px;
+        height: 150px;
+    }
+    p, .p, .p1, .p2, .p3, .p4 {
+        left: 10px;
+        width: 250px;
+        font-size: 0.8rem;
+    }
+    
+}
